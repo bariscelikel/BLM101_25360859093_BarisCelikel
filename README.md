@@ -35,7 +35,7 @@ Program **yalnızca Python** kullanır ve **harici kütüphane gerektirmez**.
 
 --  Gereksinimler:  --
 - Python 3.x
-- `.py` uzantılı dosya
+- '.py' uzantılı dosya
 
 
 --  Program Nasıl Çalıştırılır?  --
