@@ -31,7 +31,7 @@ Girdi: 14A3
 
 --  Kurulum Gerekli mi?  --
 Hayır.  
-Program **yalnızca Python** kullanır ve **harici kütüphane gerektirmez**.
+Program *yalnızca Python* kullanır ve *harici kütüphane gerektirmez*.
 
 --  Gereksinimler:  --
 - Python 3.x
@@ -43,6 +43,7 @@ Program **yalnızca Python** kullanır ve **harici kütüphane gerektirmez**.
 1. Python dosyasının bulunduğu klasöre gidilir.
 2. Terminal / CMD açılır.
 3. Aşağıdaki komut çalıştırılır:
+
 python dosya_adi.py
 
 
