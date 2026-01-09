@@ -1,0 +1,57 @@
+*** Brookshear Makine Dili Yorumlayıcısı (Decoder) ***
+
+ ==Proje Amacı==
+Bu projenin amacı, Brookshear sanal makinesinde kullanılan
+4 haneli hexadecimal (HEX) komutları analiz ederek,
+komutun yaptığı işlemi Türkçe cümleler hâlinde kullanıcıya açıklamaktır.
+
+***
+
+ ==Kullanılan Dil ve Kütüphaneler==
+- Python 3
+- Harici kütüphane kullanılmamıştır.
+- Gömülü fonksiyonlar:
+  - int(x, 16)
+  - input()
+  - print()
+
+***
+
+ ==Programın Çalışma Mantığı==
+
+1. Kullanıcıdan 4 haneli bir HEX kod alınır.
+2. Kodun geçerli olup olmadığı kontrol edilir:
+   - Uzunluk 4 mü?
+   - Sadece 0–9 ve A–F karakterlerini mi içeriyor?
+3. Kod 3 parçaya ayrılır:
+   - Op-code (1. hane)
+   - Register (2. hane)
+   - Operand (son 2 hane)
+4. Op-code değeri Appendix C tablosuna göre yorumlanır.
+5. Kullanıcıya komutun ne yaptığı Türkçe olarak açıklanır.
+
+***
+
+===Fonksiyonlar===
+
+ ==hex_kontrolu(kod)==
+- Girilen kodun HEX formatında olup olmadığını kontrol eder.
+- Hatalı girişlerin programı bozmaması için kullanılır.
+
+ ==brookshear_decoder(kod)==
+- Op-code’a göre işlemi belirler.
+- Register ve operand bilgilerini kullanarak açıklama üretir.
+
+***
+
+ ==Hata Kontrolleri==
+- 4 haneli olmayan girişler reddedilir.
+- HEX olmayan karakterler (G, Z vb.) kabul edilmez.
+- Bilinmeyen Op-code’lar kullanıcıya bildirilir.
+
+***
+
+ ==Sonuç==
+Bu program sayesinde Brookshear makine dilinde yazılmış
+HEX komutlar kolayca okunabilir ve anlaşılır hâle gelmiştir.
+Bu da makine dili – donanım ilişkisini öğrenmeyi kolaylaştırır.
