@@ -31,7 +31,7 @@ Girdi: 14A3
 
 --  Kurulum Gerekli mi?  --
 Hayır.  
-Program *yalnızca Python* kullanır ve *harici kütüphane gerektirmez*.
+Program **yalnızca Python** kullanır ve harici kütüphane gerektirmez.
 
 --  Gereksinimler:  --
 - Python 3.x
