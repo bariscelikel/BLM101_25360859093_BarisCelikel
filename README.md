@@ -1,4 +1,5 @@
 o Öğrenci Bilgileri: Barış Çelikel   25360859093
+
 o Proje Konusu: Makine Dili ve Brookshear Mimarisi
 
 
